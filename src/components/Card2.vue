@@ -1,4 +1,5 @@
 <template>
+    <!-- card 2 with props src -->
     <div class="m-3">
         <div class="card    	 card2-background p-5 shadow m-2 text-start ">
             <div class="p-5">
@@ -14,8 +15,6 @@
             </div>
         </div>
     </div>
-
-
 </template>
 <script setup>
 import { defineProps } from 'vue'

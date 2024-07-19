@@ -1,10 +1,10 @@
 <template>
-  <div class="background-gradient">
-    <Navbar></Navbar>
 
+  <div class="background-gradient">
+    <!-- Start Header -->
+    <Navbar></Navbar>
     <div class="md:flex flex-row">
       <div class="basis-50	mt-10  p-20">
-
         <span class="   background flex items-center p-2">
           <svg fill="#B16642" class="h-6 w-20 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
             <path
@@ -12,7 +12,6 @@
           </svg>
           <span class="ml-2  text-base font-semibold text-secondary">Real Estate Agency</span>
         </span>
-
         <div class="pt-9">
           <h2 class="text-6xl text-primary font-bold">Find the perfect place to
             Live with your family</h2>
@@ -37,12 +36,12 @@
       <div class=""> <img class="basis-50	" src="../assets/media/Image.png" alt="">
       </div>
     </div>
-
+    <!-- End Header -->
 
   </div>
 
+  <!-- Start first section -->
   <div class="m-6 p-3 ">
-
     <a href="#"
       class="flex flex-col items-center bg-gray-100 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
       <div class="p-12 ">
@@ -88,10 +87,12 @@
 
     </a>
 
-  </div>
+  </div>=
+  <!-- End first section -->
 
 
 
+  <!-- Start Second section -->
   <div class="relative py-12 mt-12 bg-[#F5F1EF] z-[1]">
     <TitleSection title="Properties for sale in your favorite area" text="Why Choose" number="02"></TitleSection>
     <img class="absolute top-[900px] left-0 w-full h-32 z-0" src="../assets/media/Pattern.png" alt="">
@@ -104,33 +105,32 @@
       </div>
     </div>
   </div>
+  <!-- End Second section -->
 
 
   <br><br>
-
-  <TitleSection title="Why Choose Our Properties
-Of Real Estate Industries" text="Why Choose" number="03"></TitleSection>
+  <!-- Start Third section -->
+  <TitleSection title="Why Choose Our PropertiesOf Real Estate Industries" text="Why Choose" number="03"></TitleSection>
   <br> <br>
   <div class="md:flex p-7">
     <div v-for="item in pic2">
       <Card2 :src="item.img"></Card2>
     </div>
-
   </div>
-
   <br><br>
+  <!-- End Third section -->
 
+
+  <!-- Start Fourth section -->
   <div class="bg-gray-100">
-
     <div class="p-3 md:flex">
       <span class="text-center mt-7">
-        <TitleSection title="42+ years of helping
-you find the right Propertys" text="About Us" number="04"></TitleSection>
+        <TitleSection title="42+ years of helping you find the right Propertys" text="About Us" number="04">
+        </TitleSection>
         <p class="text-sm p-9 text-secondary">Distinctively re-engineer revolutionary meta-services and premium At
           vero eos et
           accusamus et
           iusto
-
           Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
           molestias
           excepturi.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -149,9 +149,14 @@ you find the right Propertys" text="About Us" number="04"></TitleSection>
     </div>
   </div>
   <br><br>
+  <!-- End Fourth section -->
+
+
+
+  <!-- Start Fifth section -->
   <TitleSection title="See How Can Help" text="Services" number="05"></TitleSection>
   <br>
-  <!-- <div class="md:grid md:grid-cols-3  content-center">
+  <div class="md:grid md:grid-cols-3  content-center">
     <div class="text-center p-2 m-10">
       <img class="mx-auto" src="../assets/media/10.png" alt="">
       <h3 class="text-primary font-bold">Rent a Home</h3>
@@ -186,7 +191,9 @@ you find the right Propertys" text="About Us" number="04"></TitleSection>
       <p>High level overviews. Approaches overall value proposition. Organically grow the holistic world view of
         disruptive.</p>
     </div>
-  </div> -->
+  </div>
+  <!-- End Fifth section -->
+
 
 </template>
 
