@@ -1,5 +1,5 @@
 <template>
-  <div class="background-section5">
+  <div class="background-section6">
     <div class="flex justify-center py-12 items-center">
       <h3 class="text-color text-4xl pt-24 py-5 px-12 font-bold">
         What our customers say about us
@@ -131,14 +131,10 @@
     </div>
   </div>
 </template>
-<script>
-export default {
-  name: "Section5",
-};
-</script>
+<script></script>
 
 <style scoped>
-.background-section5 {
+.background-section6 {
   background: rgba(243, 232, 226, 1);
 }
 
