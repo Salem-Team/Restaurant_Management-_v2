@@ -56,9 +56,11 @@
       </div>
     </div>
   </div>
+  <FooterSection></FooterSection>
 </template>
 <script setup>
 import HeaderSection from "../components/header/HeaderSection";
 import Section6Section from "../components/Section6Section.vue";
 import Section7Counter from "@/components/Section7Counter.vue";
+import FooterSection from "@/components/footer/FooterSection.vue";
 </script>

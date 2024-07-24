@@ -6,7 +6,7 @@
     <div
       class="relative p-4 m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border"
     >
-      <img :src="props.src" alt="Card Image" />
+      <img :src="require(`../assets/media/${props.src}`)" alt="Card Image" />
     </div>
     <div class="p-6">
       <div class="flex items-center justify-between">

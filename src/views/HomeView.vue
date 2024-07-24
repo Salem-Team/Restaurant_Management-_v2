@@ -158,40 +158,29 @@
     text="Why Choose"
     number="03"
   ></TitleSection>
-  <br />
-  <br />
+
   <div class="md:flex p-7">
     <div v-for="item in pic2" :key="item.img">
       <Card2Section :src="item.img" />
     </div>
   </div>
   <br /><br />
+  <br /><br />
+
   <!-- End Third section -->
 
   <!-- Start Fourth section -->
   <Section4Section />
-  <br /><br />
   <!-- End Fourth section -->
-
+  <br /><br />
+  <br /><br />
   <!-- Start Fifth section -->
   <TitleSection title="See How Can Help" text="Services" number="05">
   </TitleSection>
-  <!-- <div class="md:flex p-7">
-    <div v-for="item in pic2">
-      <Card2 :src="item.img"></Card2>
-    </div>
-  </div> -->
-  <br /><br />
   <!-- End Third section -->
-
-  <!-- Start Fourth section -->
-  <Sectio4> </Sectio4>
-  <br /><br />
-  <!-- End Fourth section -->
 
   <!-- Start Fifth section -->
   <!-- <TitleSection title="See How Can Help" text="Services" number="05"></TitleSection> -->
-  <br />
   <div class="md:grid md:grid-cols-3 content-center">
     <div class="text-center p-2 m-10">
       <img class="mx-auto" src="../assets/media/10.png" alt="" />
@@ -350,27 +339,23 @@ export default {
   data() {
     return {
       pic: [
-        { img: "../assets/media/3.png", title: "Comefortable Appartment" },
+        { img: "3.png", title: "Comefortable Appartment" },
         {
-          img: "../assets/media/4.png",
+          img: "4.png",
           title: "Home in Downtown, Los Angeles",
         },
-        { img: "../assets/media/5.png", title: "Comefortable Appartment" },
+        { img: "5.png", title: "Comefortable Appartment" },
         {
-          img: "../assets/media/Image2.png",
+          img: "Image2.png",
           title: "Home in Downtown, Los Angeles",
         },
-        { img: "../assets/media/6.png", title: "Comefortable Appartment" },
+        { img: "6.png", title: "Comefortable Appartment" },
         {
-          img: "../assets/media/6.png",
+          img: "6.png",
           title: "Home in Downtown, Los Angeles",
         },
       ],
-      pic2: [
-        { img: "../assets/media/8.png" },
-        { img: "../assets/media/9.png" },
-        { img: "../assets/media/home.png" },
-      ],
+      pic2: [{ img: "8.png" }, { img: "9.png" }, { img: "home.png" }],
     };
   },
 };

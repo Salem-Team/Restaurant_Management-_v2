@@ -7,7 +7,7 @@
     >
       <!-- <img src="../assets/media/2222.svg" alt="item.text" class="absolute  inset-0 h-full w-full object-cover"> -->
       <img
-        :src="item.img"
+        :src="require(`../assets/media/${item.img}`)"
         :alt="item.text"
         class="absolute inset-0 h-full w-full object-cover"
       />
@@ -27,15 +27,15 @@ export default {
   data() {
     return {
       stats: [
-        { text: "New York", img: "../assets/media/2222.svg" },
-        { text: "Atlanta", img: "../assets/media/3333.svg" },
+        { text: "New York", img: "2222.svg" },
+        { text: "Atlanta", img: "3333.svg" },
         {
           text: "Singapore",
-          img: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
+          img: "2222.svg",
         },
         {
           text: "Paris",
-          img: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
+          img: "3333.svg",
         },
       ],
     };

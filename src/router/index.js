@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import PropertyView from "../views/PropertyView.vue";
+import ChangeiogView from "@/views/ChangeiogView.vue";
 const routes = [
   {
     path: "/",
@@ -20,6 +21,11 @@ const routes = [
     path: "/properties",
     name: "properties",
     component: PropertyView,
+  },
+  {
+    path: "/changeiog",
+    name: "changeiog",
+    component: ChangeiogView,
   },
 ];
 

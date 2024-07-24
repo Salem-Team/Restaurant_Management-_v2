@@ -1,26 +1,56 @@
 <template>
-  <!-- <form class="flex items-center max-w-sm mx-auto">
-    <label for="simple-search" class="sr-only">Subscribe</label>
-    <div class="relative w-full">
-      <div
-        class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
-      ></div>
-      <input
-        type="text"
-        id="simple-search"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-        placeholder="Search branch name..."
-        required
-      />
+  <div class="md:flex mt-12 md:mx-24 flex-row justify-between items-center p-4">
+    <div class="md:w-1/2 md:mb-0 mb-5 text-center md:text-left">
+      <a
+        href="#"
+        class="flex items-center justify-center md:justify-start space-x-3 rtl:space-x-reverse"
+      >
+        <img src="../../assets/media/Icon.png" class="h-8" alt="Logo" />
+        <span
+          class="self-center text-2xl text-primary font-semibold whitespace-nowrap dark:text-white"
+        >
+          ProperLand
+        </span>
+      </a>
+      <br />
+
+      <span
+        class="flex items-center justify-center md:justify-start space-x-3 rtl:space-x-reverse"
+      >
+        <img src="../../assets/media/media.svg" alt="" />
+      </span>
     </div>
-    <button
-      type="submit"
-      class="p-2.5 ms-2 text-sm text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-    >
-      Subscribe Now
-      <span class="sr-only">Search</span>
-    </button>
-  </form> -->
+
+    <div class="md:w-1/2 border-l text-center md:text-left">
+      <h3 class="text-primary m-3 mb-3 text-2xl">Get a free estimate</h3>
+      <p class="text-sm m-3 text-secondary">
+        Leverage agile frameworks to provide a robust synopsis for high-level
+        overviews. Approaches overall value proposition. Organically grow the
+        holistic world view of disruptive.
+      </p>
+      <form
+        class="flex m-3 items-center justify-center md:justify-start max-w-sm mx-auto mt-4"
+      >
+        <label for="simple-search" class="sr-only">Subscribe</label>
+        <div class="relative w-full m-3">
+          <input
+            type="text"
+            id="simple-search"
+            class="bg-gray-50 w-full border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 dark:bg-gray-700 dark:focus:border-blue-500"
+            placeholder="your email address here"
+            required
+          />
+        </div>
+        <button
+          type="submit"
+          class="p-3 w-full ml-2 text-sm text-white bg-[#3B3A5D] rounded-lg border border-[#3B3A5D] hover:bg-[#3B3A5D] focus:ring-4 focus:outline-none focus:ring-[#3B3A5D]"
+        >
+          Subscribe Now
+          <span class="sr-only">Search</span>
+        </button>
+      </form>
+    </div>
+  </div>
 
   <footer class="bg-white m-5 border-t dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
