@@ -319,7 +319,7 @@
   </div>
 
   <div>
-    <Footer> </Footer>
+    <FooterSection> </FooterSection>
   </div>
 </template>
 
@@ -332,6 +332,7 @@ import Section4Section from "@/components/Section4Section.vue";
 import Section6Section from "@/components/Section6Section.vue";
 import Section7Counter from "@/components/Section7Counter.vue";
 import GallerySection from "@/components/GallerySection.vue";
+import FooterSection from "@/components/footer/FooterSection.vue";
 
 export default {
   components: {
@@ -343,6 +344,7 @@ export default {
     Section6Section,
     Section7Counter,
     GallerySection,
+    FooterSection,
   },
   data() {
     return {
