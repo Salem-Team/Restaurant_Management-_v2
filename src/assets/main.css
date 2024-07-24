@@ -56,3 +56,30 @@
 
   }
   
+
+  .background-gradient {
+    background: linear-gradient(
+      180deg,
+      #fffbf8 0%,
+      #fffbf8 43.75%,
+      rgba(255, 251, 248, 0) 100%
+    );
+  }
+  .logo-section {
+    /* Client Logo */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 107px 137px;
+    gap: 10px;
+  
+    /* position: absolute; */
+    /* width: 1399px;
+    height: 562px; */
+    /* left: 260px;
+    top: 10210px; */
+  
+    background: #f5f1ef;
+  }
