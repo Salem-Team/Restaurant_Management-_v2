@@ -4,12 +4,13 @@
     <div class="p-3 md:flex">
       <span class="text-center mt-7">
         <TitleSection
+          class="md:text-start pl-9"
           title="42+ years of helping you find the right Propertys"
           text="About Us"
           number="04"
         >
         </TitleSection>
-        <p class="text-sm p-9 text-secondary">
+        <p class="text-sm p-9 text-secondary md:text-start">
           Distinctively re-engineer revolutionary meta-services and premium At
           vero eos et accusamus et iusto Dignissimos ducimus qui blanditiis
           praesentium voluptatum deleniti atque corrupti quos dolores et quas
@@ -29,3 +30,6 @@
     </div>
   </div>
 </template>
+<script setup>
+import TitleSection from "../components/TitleSection";
+</script>

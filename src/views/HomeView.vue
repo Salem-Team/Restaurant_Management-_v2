@@ -158,12 +158,18 @@
     text="Why Choose"
     number="03"
   ></TitleSection>
-
-  <div class="md:flex p-7">
-    <div v-for="item in pic2" :key="item.img">
+  <div class="md:flex m-6 flex-wrap justify-center items-center">
+    <div
+      v-for="item in pic2"
+      :key="item.img"
+      :class="
+        item.class + ' flex flex-col justify-center items-center text-center'
+      "
+    >
       <Card2Section :src="item.img" />
     </div>
   </div>
+
   <br /><br />
   <br /><br />
 
@@ -180,9 +186,10 @@
   <!-- End Third section -->
 
   <!-- Start Fifth section -->
-  <!-- <TitleSection title="See How Can Help" text="Services" number="05"></TitleSection> -->
-  <div class="md:grid md:grid-cols-3 content-center">
-    <div class="text-center p-2 m-10">
+  <div class="flex flex-wrap justify-center items-center min-h-screen">
+    <div
+      class="flex flex-col w-1/4 justify-center items-center text-center p-2 m-10"
+    >
       <img class="mx-auto" src="../assets/media/10.png" alt="" />
       <h3 class="text-primary font-bold">Rent a Home</h3>
       <p>
@@ -191,7 +198,9 @@
       </p>
     </div>
 
-    <div class="text-center p-2 m-12">
+    <div
+      class="flex flex-col w-1/4 justify-center items-center text-center p-2 m-10"
+    >
       <img class="mx-auto" src="../assets/media/10.png" alt="" />
       <h3 class="text-primary font-bold">Rent a Home</h3>
       <p>
@@ -200,7 +209,9 @@
       </p>
     </div>
 
-    <div class="text-center p-2 m-12">
+    <div
+      class="flex flex-col w-1/4 justify-center items-center text-center p-2 m-10"
+    >
       <img class="mx-auto" src="../assets/media/10.png" alt="" />
       <h3 class="text-primary font-bold">Rent a Home</h3>
       <p>
@@ -208,8 +219,9 @@
         grow the holistic world view of disruptive.
       </p>
     </div>
-
-    <div class="text-center p-2 m-12">
+    <div
+      class="flex flex-col w-1/4 justify-center items-center text-center p-2 m-10"
+    >
       <img class="mx-auto" src="../assets/media/10.png" alt="" />
       <h3 class="text-primary font-bold">Rent a Home</h3>
       <p>
@@ -217,8 +229,9 @@
         grow the holistic world view of disruptive.
       </p>
     </div>
-
-    <div class="text-center p-2 m-12">
+    <div
+      class="flex flex-col w-1/4 justify-center items-center text-center p-2 m-10"
+    >
       <img class="mx-auto" src="../assets/media/10.png" alt="" />
       <h3 class="text-primary font-bold">Rent a Home</h3>
       <p>
@@ -227,6 +240,7 @@
       </p>
     </div>
   </div>
+
   <!-- End Fifth section -->
   <div>
     <Section6Section></Section6Section>
@@ -235,12 +249,14 @@
     <Section7Counter></Section7Counter>
   </div>
   <div>
+    <hr />
     <TitleSection
       title="Discover The Neighborhoods"
       text="Neighborhoods"
       number="06"
     >
     </TitleSection>
+
     <GallerySection></GallerySection>
     <br /><br />
     <div class="m-12">
@@ -355,7 +371,13 @@ export default {
           title: "Home in Downtown, Los Angeles",
         },
       ],
-      pic2: [{ img: "8.png" }, { img: "9.png" }, { img: "home.png" }],
+      pic2: [
+        { img: "8.png", class: "w-1/3	" },
+        { img: "home.png", class: "w-2/3 flex" },
+        { img: "9.png", class: "w-1/3" },
+        { img: "home.png", class: "w-1/3" },
+        { img: "9.png", class: "w-1/3" },
+      ],
     };
   },
 };

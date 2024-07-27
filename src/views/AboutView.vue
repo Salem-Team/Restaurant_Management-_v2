@@ -27,7 +27,7 @@
       </div>
     </div>
   </HeaderSection>
-
+  <AboutSection1></AboutSection1>
   <Section6Section></Section6Section>
   <Section7Counter class="bg-[#FFBB50]"></Section7Counter>
   <div class="">
@@ -63,4 +63,5 @@ import HeaderSection from "../components/header/HeaderSection";
 import Section6Section from "../components/Section6Section.vue";
 import Section7Counter from "@/components/Section7Counter.vue";
 import FooterSection from "@/components/footer/FooterSection.vue";
+import AboutSection1 from "@/components/AboutSection1.vue";
 </script>

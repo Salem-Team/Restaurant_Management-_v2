@@ -21,7 +21,7 @@
       </span>
     </div>
 
-    <div class="md:w-1/2 border-l text-center md:text-left">
+    <div class="md:w-1/2 md:border-l text-center md:text-left">
       <h3 class="text-primary m-3 mb-3 text-2xl">Get a free estimate</h3>
       <p class="text-sm m-3 text-secondary">
         Leverage agile frameworks to provide a robust synopsis for high-level
