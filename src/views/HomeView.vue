@@ -58,7 +58,7 @@
   <div class="m-6 p-3">
     <a
       href="#"
-      class="flex flex-col items-center bg-gray-100 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+      class="flex flex-col items-center bg-gray-100 rounded-lg shadow md:flex-row hover:bg-gray-100"
     >
       <div class="p-12">
         <span class="text-amber-500">01</span>

@@ -7,7 +7,7 @@
       >
         <img src="../../assets/media/Icon.png" class="h-8" alt="Logo" />
         <span
-          class="self-center text-2xl text-primary font-semibold whitespace-nowrap dark:text-white"
+          class="self-center text-2xl text-primary font-semibold whitespace-nowrap"
         >
           ProperLand
         </span>
@@ -36,7 +36,7 @@
           <input
             type="text"
             id="simple-search"
-            class="bg-gray-50 w-full border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 dark:bg-gray-700 dark:focus:border-blue-500"
+            class="bg-gray-50 w-full border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5"
             placeholder="your email address here"
             required
           />
@@ -52,19 +52,17 @@
     </div>
   </div>
 
-  <footer class="bg-white m-5 border-t dark:bg-gray-900">
+  <footer class="bg-white m-5 border-t">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div
           class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 m-5 p-5 border-r"
         >
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
-            >
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Company
             </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-500 font-medium">
               <li class="mb-4">
                 <a href="#" class="hover:underline">About</a>
               </li>
@@ -86,12 +84,10 @@
             </ul>
           </div>
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
-            >
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Services
             </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-500 font-medium">
               <li class="mb-4">
                 <a href="#" class="hover:underline">Rend A Home</a>
               </li>
@@ -113,12 +109,10 @@
             </ul>
           </div>
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
-            >
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Uitility pages
             </h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-500 font-medium">
               <li class="mb-4">
                 <a href="#" class="hover:underline">Style Guide</a>
               </li>
@@ -143,7 +137,7 @@
         <div class="mb-6 md:mb-0 box">
           <a href="#" class="flex items-center">
             <span
-              class="self-center text-primary text-2xl font-bold whitespace-nowrap dark:text-white"
+              class="self-center text-primary text-2xl font-bold whitespace-nowrap"
               >Contact Us</span
             >
           </a>
@@ -152,13 +146,9 @@
           <p>support@example.com</p>
         </div>
       </div>
-      <hr
-        class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
-      />
+      <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
       <div class="flex justify-center items-center">
-        <span
-          class="text-sm text-gray-500 text-center mx-auto dark:text-gray-400"
-        >
+        <span class="text-sm text-gray-500 text-center mx-auto">
           Copyright © Properland | Designed by VictorFlow - Powered by Webflow.
         </span>
       </div>

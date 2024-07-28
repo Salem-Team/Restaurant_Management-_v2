@@ -24,6 +24,7 @@ In An Easy Way"
         <div class="flex">
           <img src="../assets/media/Icon1.svg" alt="" />
           <div>
+            <h3 class="font-bold text-xl text-black">Our Vision</h3>
             <p class="p-2">
               Distinctively re-engineer revolutionary meta-services and premium
               At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -35,6 +36,7 @@ In An Easy Way"
         <div class="flex">
           <img src="../assets/media/Icon2.svg" alt="" />
           <div>
+            <h3 class="font-bold text-xl text-black">Our Mission</h3>
             <p class="p-2">
               Distinctively re-engineer revolutionary meta-services and premium
               At vero eos et accusamus et iusto odio dignissimos ducimus qui

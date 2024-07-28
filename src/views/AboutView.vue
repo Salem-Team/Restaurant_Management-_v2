@@ -28,8 +28,18 @@
     </div>
   </HeaderSection>
   <AboutSection1></AboutSection1>
+  <AboutSection2></AboutSection2>
   <Section6Section></Section6Section>
+  <AboutSection3></AboutSection3>
   <Section7Counter class="bg-[#FFBB50]"></Section7Counter>
+  <br />
+  <TitleSection
+    title="Our Property Team"
+    text="Experts"
+    number="06"
+  ></TitleSection>
+  <AboutSection4></AboutSection4>
+
   <div class="">
     <div class="logo-section">
       <h3 class="mx-auto text-primary text-center text-3xl font-bold">
@@ -64,4 +74,8 @@ import Section6Section from "../components/Section6Section.vue";
 import Section7Counter from "@/components/Section7Counter.vue";
 import FooterSection from "@/components/footer/FooterSection.vue";
 import AboutSection1 from "@/components/AboutSection1.vue";
+import AboutSection2 from "@/components/AboutSection2.vue";
+import AboutSection3 from "@/components/AboutSection3.vue";
+import AboutSection4 from "@/components/AboutSection4.vue";
+import TitleSection from "@/components/TitleSection.vue";
 </script>
