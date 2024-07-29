@@ -372,11 +372,11 @@ export default {
         },
       ],
       pic2: [
-        { img: "8.png", class: "w-1/3	" },
-        { img: "home.png", class: "w-2/3 flex" },
-        { img: "9.png", class: "w-1/3" },
-        { img: "home.png", class: "w-1/3" },
-        { img: "9.png", class: "w-1/3" },
+        { img: "8.png", class: "md:w-1/3	" },
+        { img: "home.png", class: "md:w-2/3 md:flex" },
+        { img: "9.png", class: "md:w-1/3" },
+        { img: "home.png", class: "md:w-1/3" },
+        { img: "9.png", class: "md:w-1/3" },
       ],
     };
   },

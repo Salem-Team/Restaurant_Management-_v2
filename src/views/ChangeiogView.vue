@@ -1,6 +1,8 @@
 <template>
-  <HeaderSection>
-    <div class="flex justify-center items-center p-48 min-h-screen">
+  <HeaderSection class="">
+    <div
+      class="flex justify-center items-center p-48 min-h-screen img-backgroundLast"
+    >
       <div class="last-box">
         <span class="flex items-center p-2 background">
           <svg
@@ -16,9 +18,10 @@
           <span class="text-base font-semibold text-secondary">Changelog</span>
         </span>
 
-        <h3 class="text-xl text-primary">Version 01</h3>
+        <h3 class="text-xl text-primary font-bold">Version 01</h3>
         <p class="text-xs text-center text-secondary">
-          Initial Properland Webflow Template Release
+          Initial <strong class="text-primary">Properland</strong> Webflow
+          Template Release
         </p>
       </div>
     </div>
@@ -39,9 +42,16 @@ import FooterSection from "../components/footer/FooterSection.vue";
   padding: 30px;
   gap: 10px;
   width: 400px;
-  opacity: 0.9;
+  opacity: 1;
   background: rgba(255, 255, 255, 0.76);
   backdrop-filter: blur(6px);
   border-radius: 10px;
+}
+
+.img-backgroundLast {
+  background-image: url("../assets/media/Banner1.svg");
+  background-size: cover; /* Ensures the background image covers the entire div */
+  background-position: center; /* Centers the background image */
+  opacity: 0.8;
 }
 </style>
