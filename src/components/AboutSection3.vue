@@ -1,9 +1,9 @@
 <template>
-  <div class="flex p-5 m-5">
-    <div class="w-1/2">
+  <div class="md:flex p-5 m-5">
+    <div class="md:w-1/2">
       <img src="../assets/media/Photo1about.svg" alt="" />
     </div>
-    <div class="pl-4 ml-5 w-1/2">
+    <div class="pl-4 ml-5 md:w-1/2">
       <h4 class="text-primary text-3xl">We're reinventing the space</h4>
       <br />
       <p class="text-secondary">
@@ -13,8 +13,9 @@
       </p>
     </div>
   </div>
-  <div class="flex p-5 m-5">
-    <div class="pl-4 ml-5 w-1/2">
+  <br />
+  <div class="md:flex p-5 m-5">
+    <div class="pl-4 md:mb-0 mb-7 ml-5 md:w-1/2">
       <h4 class="text-primary text-3xl">
         Learn More About Who We Are in Real Estate
       </h4>
@@ -37,7 +38,7 @@
         backward-compatible data.
       </p>
     </div>
-    <div class="w-1/2">
+    <div class="md:w-1/2">
       <img src="../assets/media/Image1about.svg" alt="" />
     </div>
   </div>

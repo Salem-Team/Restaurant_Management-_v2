@@ -1,6 +1,6 @@
 <template>
   <HeaderSection>
-    <div class="md:flex flex-row">
+    <div class="md:flex md:flex-row">
       <div class="basis-50 mt-10 p-20">
         <span class="flex items-center p-2 background-gradient">
           <svg

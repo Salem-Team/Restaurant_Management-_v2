@@ -289,6 +289,12 @@
   <br /><br />
 
   <div class="logo-section mx-auto flex flex-col items-center text-center">
+    <TitleSection
+      title="Properties for sale in your favorite area"
+      text="Why Choose"
+      number="07"
+    ></TitleSection>
+    <br /><br />
     <img src="../assets/media/blog1.svg" alt="" />
     <br />
     <div class="text-center">

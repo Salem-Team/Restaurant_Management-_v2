@@ -1,6 +1,6 @@
 <template>
   <div class="p-5 m-5">
-    <div class="flex justify-between">
+    <div class="md:flex justify-between">
       <div class="aboutSection2 m-2 p-5">
         <span
           class="bg-[#FFBB50] font-bold rounded-full p-3 ml-2 text-white text-2xl"

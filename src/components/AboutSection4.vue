@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between p-9 m-3">
-    <div class="bg-white w-1/4 m-2 overflow-hidden">
+  <div class="md:flex justify-between p-9 m-3">
+    <div class="bg-white md:w-1/4 m-2 overflow-hidden">
       <img
         src="../assets/media/person1.svg"
         alt="Profile Picture"
@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="bg-white w-1/4 m-2 overflow-hidden">
+    <div class="bg-white md:w-1/4 m-2 overflow-hidden">
       <img
         src="../assets/media/person3.svg"
         alt="Profile Picture"
@@ -62,7 +62,7 @@
       </div>
     </div>
 
-    <div class="bg-white w-1/4 m-2 overflow-hidden">
+    <div class="bg-white md:w-1/4 m-2 overflow-hidden">
       <img
         src="../assets/media/person1.svg"
         alt="Profile Picture"
@@ -93,7 +93,7 @@
       </div>
     </div>
 
-    <div class="bg-white w-1/4 m-2 overflow-hidden">
+    <div class="bg-white md:w-1/4 m-2 overflow-hidden">
       <img
         src="../assets/media/person1.svg"
         alt="Profile Picture"
