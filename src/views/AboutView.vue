@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="">
-        <img class="basis-50" src="../assets/media/about.svg" alt="" />
+        <img class="basis-50 h-full" src="../assets/media/about.svg" alt="" />
       </div>
     </div>
   </HeaderSection>
@@ -50,7 +50,9 @@
 
       <br />
       <div class="mx-auto flex flex-col items-center text-center">
-        <div class="p-4 flex items-center rounded text-primary bg-white">
+        <div
+          class="p-4 cursor-pointer flex items-center rounded text-primary bg-white"
+        >
           Explore Property
           <svg
             class="w-4 ml-4 bg-amber-500 rounded-full py-1 px-1"

@@ -30,7 +30,7 @@
             </p>
           </div>
 
-          <span class="mt-6 flex items-center">
+          <span class="mt-6 cursor-pointer flex items-center">
             <div class="p-4 flex items-center rounded text-primary bg-white">
               Explore Property
               <svg
@@ -47,7 +47,7 @@
           </span>
         </div>
         <div class="">
-          <img class="basis-50" src="../assets/media/Image.png" alt="" />
+          <img class="basis-50 h-full" src="../assets/media/Image.png" alt="" />
         </div>
       </div>
     </HeaderSection>
@@ -56,11 +56,8 @@
 
   <!-- Start first section -->
   <div class="m-6 p-3">
-    <a
-      href="#"
-      class="flex flex-col items-center bg-gray-100 rounded-lg shadow md:flex-row hover:bg-gray-100"
-    >
-      <div class="p-12">
+    <a href="#" class="flex flex-col items-center rounded-lg md:flex-row">
+      <div class="p-12 m-5 bg-gray-100">
         <span class="text-amber-500">01</span>
         <span class="text-base font-semibold text-primary">
           PROPERLAND INTRO</span
@@ -121,7 +118,7 @@
       </div>
 
       <img
-        class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-64 md:rounded-none md:rounded-s-lg"
+        class="object-cover w-full rounded-t-lg md:h-full md:w-64 md:rounded-none md:rounded-s-lg"
         src="../assets/media/Photo.jpg"
         alt=""
       />
@@ -269,7 +266,9 @@
 
         <br />
         <div class="mx-auto flex flex-col items-center text-center">
-          <div class="p-4 flex items-center rounded text-primary bg-white">
+          <div
+            class="p-4 cursor-pointer flex items-center rounded text-primary bg-white"
+          >
             Explore Property
             <svg
               class="w-4 ml-4 bg-amber-500 rounded-full py-1 px-1"

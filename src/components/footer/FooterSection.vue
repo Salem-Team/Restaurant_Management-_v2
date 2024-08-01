@@ -56,7 +56,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div
-          class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 m-5 p-5 border-r"
+          class="grid grid-cols-2 gap-8 md:1/2 w-full sm:gap-6 sm:grid-cols-3 m-5 p-5 border-r"
         >
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
@@ -134,7 +134,7 @@
             </ul>
           </div>
         </div>
-        <div class="mb-6 md:mb-0 box">
+        <div class="mb-6 md:1/2 w-full md:mb-0 box">
           <a href="#" class="flex items-center">
             <span
               class="self-center text-primary text-2xl font-bold whitespace-nowrap"
