@@ -57,24 +57,24 @@
   <!-- Start first section -->
   <div class="m-6 p-3">
     <a href="#" class="flex flex-col items-center rounded-lg md:flex-row">
-      <div class="p-12 m-5 bg-gray-100">
-        <span class="text-amber-500">01</span>
-        <span class="text-base font-semibold text-primary">
-          PROPERLAND INTRO</span
-        >
-
-        <h2 class="text-2xl pt-4 text-primary font-bold">
-          Buying & Selling Property In An Easy Way
-        </h2>
-        <p class="text-secondary pt-2">
-          Distinctively re-engineer revolutionary meta-services and premium At
-          vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-          praesentium voluptatum deleniti atque corrupti quos dolores et quas
-          molestias excepturi.
-        </p>
+      <div class="flex-1 p-12 m-5 bg-gray-100 flex flex-col">
+        <div>
+          <span class="text-amber-500">01</span>
+          <span class="text-base font-semibold text-primary"
+            >PROPERLAND INTRO</span
+          >
+          <h2 class="text-2xl pt-4 text-primary font-bold">
+            Buying & Selling Property In An Easy Way
+          </h2>
+          <p class="text-secondary pt-2">
+            Distinctively re-engineer revolutionary meta-services and premium At
+            vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti quos
+            dolores et quas molestias excepturi.
+          </p>
+        </div>
         <br />
-
-        <span class="md:flex">
+        <div class="md:flex mt-auto">
           <span class="basis-1/3 flex text-center p-1">
             <svg
               fill="gray"
@@ -84,10 +84,10 @@
             >
               <path
                 d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-352a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
-              /></svg
-            >Only pay when you publish</span
-          >
-
+              />
+            </svg>
+            Only pay when you publish
+          </span>
           <h5 class="basis-1/3 text-center flex p-1">
             <svg
               fill="gray"
@@ -114,16 +114,18 @@
             </svg>
             24/7 support
           </h5>
-        </span>
+        </div>
       </div>
-
-      <img
-        class="object-cover w-full rounded-t-lg md:h-full md:w-64 md:rounded-none md:rounded-s-lg"
-        src="../assets/media/Photo.jpg"
-        alt=""
-      />
+      <div class="md:w-64 flex-shrink-0 flex items-stretch">
+        <img
+          class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-s-lg"
+          src="../assets/media/about2.svg"
+          alt=""
+        />
+      </div>
     </a>
   </div>
+
   <!-- End first section -->
 
   <!-- Start Second section -->

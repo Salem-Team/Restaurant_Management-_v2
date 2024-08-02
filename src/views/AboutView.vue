@@ -1,6 +1,6 @@
 <template>
   <HeaderSection>
-    <div class="md:flex md:flex-row">
+    <div class="lg:flex lg:flex-row">
       <div class="basis-50 mt-10 p-20">
         <span class="flex items-center p-2 background-gradient">
           <svg
@@ -22,8 +22,12 @@
           <br />
         </div>
       </div>
-      <div class="">
-        <img class="basis-50 h-full" src="../assets/media/about.svg" alt="" />
+      <div class="h-full">
+        <img
+          class="basis-50 h-full overflow-hidden"
+          src="../assets/media/about.svg"
+          alt=""
+        />
       </div>
     </div>
   </HeaderSection>
@@ -41,12 +45,12 @@
   <AboutSection4></AboutSection4>
 
   <div class="">
-    <div class="logo-section">
+    <div class="logo-section md:p-24 p-12">
       <h3 class="mx-auto text-primary text-center text-3xl font-bold">
         More than 50+ Brands Trusted World Wide
       </h3>
       <br /><br />
-      <img src="../assets//media/logo.svg" alt="" />
+      <img class="w-full" src="../assets//media/logo.svg" alt="" />
 
       <br />
       <div class="mx-auto flex flex-col items-center text-center">

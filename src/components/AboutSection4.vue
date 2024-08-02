@@ -1,10 +1,10 @@
 <template>
   <div class="md:flex justify-between p-9 m-3">
-    <div class="bg-white md:w-1/4 m-2 overflow-hidden">
+    <div class="bg-white md:w-1/4 m-2">
       <img
         src="../assets/media/person1.svg"
         alt="Profile Picture"
-        class="w-full h-[300px]"
+        class="w-full"
       />
       <div class="p-4 text-center bg-gray-100">
         <h2 class="text-xl font-bold text-primary">Peter Parker</h2>
@@ -31,11 +31,11 @@
       </div>
     </div>
 
-    <div class="bg-white md:w-1/4 m-2 overflow-hidden">
+    <div class="bg-white md:w-1/4 m-2">
       <img
         src="../assets/media/person3.svg"
         alt="Profile Picture"
-        class="w-full h-[300px]"
+        class="w-full"
       />
       <div class="p-4 text-center bg-[#FFBB50]">
         <h2 class="text-xl font-bold text-primary">Peter Parker</h2>
@@ -66,7 +66,7 @@
       <img
         src="../assets/media/person1.svg"
         alt="Profile Picture"
-        class="w-full h-[300px]"
+        class="w-full"
       />
       <div class="p-4 text-center bg-gray-100">
         <h2 class="text-xl font-bold text-primary">Peter Parker</h2>
@@ -97,7 +97,7 @@
       <img
         src="../assets/media/person1.svg"
         alt="Profile Picture"
-        class="w-full h-[300px]"
+        class="w-full"
       />
       <div class="p-4 text-center bg-gray-100">
         <h2 class="text-xl font-bold text-primary">Peter Parker</h2>
