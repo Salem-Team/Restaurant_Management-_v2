@@ -49,7 +49,7 @@ import FooterSection from "../components/footer/FooterSection.vue";
 }
 
 .img-backgroundLast {
-  background-image: url("../assets/media/Banner1.svg");
+  background-image: url("../assets/media/Banner.png");
   background-size: cover; /* Ensures the background image covers the entire div */
   background-position: center; /* Centers the background image */
   opacity: 0.8;

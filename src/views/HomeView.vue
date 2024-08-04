@@ -259,7 +259,7 @@
     <GallerySection></GallerySection>
     <br /><br />
     <div class="m-12">
-      <div class="logo-section">
+      <div class="logo-section p-8">
         <h3 class="mx-auto text-primary text-center text-3xl font-bold">
           More than 50+ Brands Trusted World Wide
         </h3>
@@ -289,7 +289,7 @@
   </div>
   <br /><br />
 
-  <div class="logo-section mx-auto flex flex-col items-center text-center">
+  <div class="logo-section p-9 mx-auto flex flex-col items-center text-center">
     <TitleSection
       title="Properties for sale in your favorite area"
       text="Why Choose"
