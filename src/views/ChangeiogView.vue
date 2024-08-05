@@ -1,10 +1,10 @@
 <template>
-  <HeaderSection class="">
+  <HeaderSection background="true">
     <div
       class="flex justify-center items-center p-48 min-h-screen img-backgroundLast"
     >
       <div class="last-box">
-        <span class="flex items-center p-2 background">
+        <span class="flex items-center p-2">
           <svg
             fill="#B16642"
             class="h-6 w-12"
@@ -46,12 +46,5 @@ import FooterSection from "../components/footer/FooterSection.vue";
   background: rgba(255, 255, 255, 0.76);
   backdrop-filter: blur(6px);
   border-radius: 10px;
-}
-
-.img-backgroundLast {
-  background-image: url("../assets/media/Banner.png");
-  background-size: cover; /* Ensures the background image covers the entire div */
-  background-position: center; /* Centers the background image */
-  opacity: 0.8;
 }
 </style>

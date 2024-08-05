@@ -57,7 +57,7 @@
   <!-- Start first section -->
   <div class="m-6 p-3">
     <a href="#" class="flex flex-col items-center rounded-lg md:flex-row">
-      <div class="flex-1 p-12 m-5 bg-gray-100 flex flex-col">
+      <div class="flex-1 p-5 md:p-12 bg-gray-100 flex flex-col m-2 h-[400px]">
         <div>
           <span class="text-amber-500">01</span>
           <span class="text-base font-semibold text-primary"
@@ -116,9 +116,9 @@
           </h5>
         </div>
       </div>
-      <div class="md:w-64 flex-shrink-0 flex items-stretch">
+      <div class="md:w-64 w-full m-3 p-2 flex-0 flex items-stretch h-[400px]">
         <img
-          class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-s-lg"
+          class="object-cover w-full h-full"
           src="../assets/media/about2.svg"
           alt=""
         />
